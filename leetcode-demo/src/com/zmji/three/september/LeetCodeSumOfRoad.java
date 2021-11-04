@@ -1,8 +1,6 @@
 package com.zmji.three.september;
 
 
-import com.zmji.util.TreeNode;
-
 /**
  *
  * 路径之和相关题目
@@ -38,9 +36,9 @@ public class LeetCodeSumOfRoad {
      * @param targetSum
      * @return
      */
-    public boolean hasPathSum(TreeNode root, int targetSum) {
-        return true;
-    }
+//    public boolean hasPathSum(TreeNode root, int targetSum) {
+//        return true;
+//    }
 
 
 }
