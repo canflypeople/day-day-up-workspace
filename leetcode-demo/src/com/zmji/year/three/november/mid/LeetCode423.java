@@ -2,7 +2,6 @@ package com.zmji.year.three.november.mid;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 423. 从英文中重建数字 给你一个字符串 s ，其中包含字母顺序打乱的用英文单词表示的若干数字（0-9）。按 升序 返回原始的数字。
@@ -54,7 +53,6 @@ public class LeetCode423 {
                 ans.append((char)(i + '0'));
             }
         }
-        new ReentrantLock().newCondition().;
         return ans.toString();
     }
 }
