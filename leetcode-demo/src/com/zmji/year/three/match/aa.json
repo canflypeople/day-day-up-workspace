@@ -1,0 +1,2021 @@
+{
+  "code": "00000",
+  "description": "成功",
+  "data": {
+    "dataList": [
+      {
+        "stationNodeInfos": [
+          {
+            "type": "Grid",
+            "packageInfo": [
+              {
+                "stationId": "1496315554057814016",
+                "nodeId": "1496353348780163075",
+                "tp": "1647920349156",
+                "u": "325.784213046807850",
+                "i": "29.927972899474730",
+                "p": "6639.800173131251500",
+                "e": "66414.528549751264966",
+                "ep": "20413.228151546742362",
+                "en": "20414.657656761357881",
+                "status": "11010",
+                "eDay": "4462.722496162858724"
+              }
+            ]
+          },
+          {
+            "type": "Generate",
+            "packageInfo": [
+              {
+                "stationId": "1496315554057814016",
+                "nodeId": "1496353348780163072",
+                "tp": "1647920349156",
+                "u": "720.259443030856100",
+                "i": "25.489483527202270",
+                "p": "18621.711106539344000",
+                "e": "123770.540494052820091",
+                "ep": "38050.512820939614042",
+                "en": "38049.125515911478625",
+                "t": "0.0",
+                "status": "11010",
+                "irradiance": "161.0",
+                "direction": "0.0",
+                "v": "0.0",
+                "eDay": "4459.327241658603851",
+                "tIn": "30.3"
+              },
+              {
+                "stationId": "1496315554057814016",
+                "nodeId": "1496353348780163080",
+                "tp": "1647498360000",
+                "u": "511.311611245416",
+                "i": "144.5290852211638",
+                "p": "213.0984786145842",
+                "s": "60209.24141313447",
+                "e": "60.876658881375110",
+                "ep": "0",
+                "en": "0",
+                "errorCode": "7",
+                "workMode": "7",
+                "invalid": "20",
+                "status": "11010",
+                "eDay": "-34.956467467028421"
+              }
+            ]
+          },
+          {
+            "type": "Aggregation",
+            "packageInfo": [
+              {
+                "stationId": "1496315554057814016",
+                "p": "18834.809585153928200",
+                "e": "123831.417152934195201",
+                "eDay": "4424.370774191575430"
+              }
+            ]
+          }
+        ],
+        "deviceNodeInfos": [
+          {
+            "type": "EnvironmentalTester",
+            "packageInfo": [
+              {
+                "stationId": "1496315554057814016",
+                "nodeId": "1496353348780163072",
+                "tp": "1647920349156",
+                "u": "720.259443030856100",
+                "i": "25.489483527202270",
+                "p": "18621.711106539344000",
+                "e": "123770.540494052820091",
+                "ep": "38050.512820939614042",
+                "en": "38049.125515911478625",
+                "t": "0.0",
+                "status": "11010",
+                "irradiance": "161.0",
+                "direction": "0.0",
+                "v": "0.0",
+                "eDay": "4459.327241658603851",
+                "tIn": "30.3"
+              },
+              {
+                "stationId": "1496315554057814016",
+                "nodeId": "1496353348780163080",
+                "tp": "1647498360000",
+                "u": "511.311611245416",
+                "i": "144.5290852211638",
+                "p": "213.0984786145842",
+                "s": "60209.24141313447",
+                "e": "60.876658881375110",
+                "ep": "0",
+                "en": "0",
+                "errorCode": "7",
+                "workMode": "7",
+                "invalid": "20",
+                "status": "11010",
+                "eDay": "-34.956467467028421"
+              }
+            ]
+          }
+        ],
+        "extraInfo": {
+          "mergeNetEPrice": 1.1,
+          "historyProfit": 6906180.81900000004
+        },
+        "thingInfo": {
+          "id": "1496315554057814016",
+          "templateCode": "DistributedPV",
+          "templateType": "PowerStation",
+          "name": "hotfix新电站",
+          "code": "xurantest001",
+          "attributeValues": [
+            {
+              "attributeCode": "IsReady",
+              "attributeName": "就绪状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "IsSigned",
+              "attributeName": "签约状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "AreaID",
+              "attributeName": "区域ID",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "320505"
+            },
+            {
+              "attributeCode": "Alias",
+              "attributeName": "电站别名",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "PowerCapacity",
+              "attributeName": "装机容量",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Longitude",
+              "attributeName": "经度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "120.524973"
+            },
+            {
+              "attributeCode": "Latitude",
+              "attributeName": "纬度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "31.291808"
+            },
+            {
+              "attributeCode": "Altitude",
+              "attributeName": "海拔",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "234"
+            },
+            {
+              "attributeCode": "TimeZone",
+              "attributeName": "时区",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "8"
+            },
+            {
+              "attributeCode": "ProductionTime",
+              "attributeName": "投产时间",
+              "attributeTypeCode": "dateTime",
+              "attributeTypeName": "时间",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Country",
+              "attributeName": "国家",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Address",
+              "attributeName": "详细地址",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Note",
+              "attributeName": "备注",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricitySalesType",
+              "attributeName": "售电类型",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "FullAmount",
+                  "attributeName": "全额上网",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "UseSelf",
+                  "attributeName": "自发自用",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "OnGridPrice",
+              "attributeName": "售网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricityPrice",
+              "attributeName": "购网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            }
+          ],
+          "nodeIdList": [
+            "1496353348780163080"
+          ],
+          "shared": false,
+          "creator": "徐冉",
+          "updater": "褚衍东",
+          "createTime": "2022-02-23 10:46:44",
+          "updateTime": "2022-03-21 16:53:40"
+        }
+      },
+      {
+        "stationNodeInfos": [
+          {
+            "type": "Grid",
+            "packageInfo": [
+              {
+                "nodeId": "1498844923422703619"
+              }
+            ]
+          },
+          {
+            "type": "Aggregation",
+            "packageInfo": [
+              {
+                "stationId": "1497025998372339712"
+              }
+            ]
+          }
+        ],
+        "deviceNodeInfos": [],
+        "extraInfo": {
+          "mergeNetEPrice": 1.1,
+          "historyProfit": 0
+        },
+        "thingInfo": {
+          "id": "1497025998372339712",
+          "templateCode": "DistributedPV",
+          "templateType": "PowerStation",
+          "name": "白虎电站",
+          "code": "bhdz",
+          "attributeValues": [
+            {
+              "attributeCode": "IsReady",
+              "attributeName": "就绪状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "IsSigned",
+              "attributeName": "签约状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "AreaID",
+              "attributeName": "区域ID",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "320505"
+            },
+            {
+              "attributeCode": "Alias",
+              "attributeName": "电站别名",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "PowerCapacity",
+              "attributeName": "装机容量",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Longitude",
+              "attributeName": "经度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "120.57"
+            },
+            {
+              "attributeCode": "Latitude",
+              "attributeName": "纬度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "31.29"
+            },
+            {
+              "attributeCode": "Altitude",
+              "attributeName": "海拔",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "12"
+            },
+            {
+              "attributeCode": "TimeZone",
+              "attributeName": "时区",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "东八区"
+            },
+            {
+              "attributeCode": "ProductionTime",
+              "attributeName": "投产时间",
+              "attributeTypeCode": "dateTime",
+              "attributeTypeName": "时间",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Country",
+              "attributeName": "国家",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Address",
+              "attributeName": "详细地址",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Note",
+              "attributeName": "备注",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricitySalesType",
+              "attributeName": "售电类型",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "FullAmount",
+                  "attributeName": "全额上网",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "UseSelf",
+                  "attributeName": "自发自用",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "OnGridPrice",
+              "attributeName": "售网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricityPrice",
+              "attributeName": "购网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            }
+          ],
+          "nodeIdList": [],
+          "shared": false,
+          "creator": "褚衍东",
+          "updater": "褚衍东",
+          "createTime": "2022-02-25 09:49:51",
+          "updateTime": "2022-02-25 09:49:51"
+        }
+      },
+      {
+        "stationNodeInfos": [
+          {
+            "type": "Grid",
+            "packageInfo": [
+              {
+                "stationId": "1476802733997686784",
+                "nodeId": "1476804445919641602",
+                "tp": "1647499200010",
+                "u": "479.792732339743450",
+                "i": "6.838070557172515",
+                "p": "3000000",
+                "q": "6000000",
+                "e": "650",
+                "ep": "29526.398027825361690",
+                "en": "29526.018900875215592",
+                "status": "11010"
+              }
+            ]
+          },
+          {
+            "type": "Generate",
+            "packageInfo": [
+              {
+                "stationId": "1476802733997686784",
+                "nodeId": "1476804445919641603",
+                "tp": "1647499200010",
+                "u": "528.377618043671300",
+                "i": "11.528889138194975",
+                "p": "3000000",
+                "q": "55",
+                "e": "650",
+                "ep": "29139.499195153566933",
+                "en": "29138.610216732668373",
+                "t": "20",
+                "status": "11010",
+                "irradiance": "40",
+                "direction": "0",
+                "v": "23"
+              }
+            ]
+          },
+          {
+            "type": "Aggregation",
+            "packageInfo": [
+              {
+                "stationId": "1476802733997686784",
+                "p": "3000000",
+                "e": "650"
+              }
+            ]
+          }
+        ],
+        "deviceNodeInfos": [
+          {
+            "type": "Inverter",
+            "packageInfo": [
+              {
+                "stationId": "1476802733997686784",
+                "nodeId": "1476804445919641601",
+                "tp": "1647499080005",
+                "ua": "16",
+                "ub": "16",
+                "uc": "16",
+                "u": "488.07107099279284",
+                "ia": "16",
+                "ib": "16",
+                "ic": "16",
+                "i": "172.89666829215858",
+                "p": "62.698076733721855",
+                "q": "16",
+                "s": "223018.50591888512",
+                "e": "9.610116371464389",
+                "en": "68.533029544631657",
+                "errorCode": "6",
+                "workMode": "2",
+                "invalid": "43",
+                "status": "11010",
+                "u1": "16",
+                "u2": "16",
+                "u3": "16",
+                "i1": "16",
+                "i2": "16",
+                "i3": "16",
+                "tIn": "43"
+              },
+              {
+                "stationId": "1476802733997686784",
+                "nodeId": "1476804445919641600",
+                "tp": "1647499080005",
+                "ua": "87",
+                "ub": "87",
+                "uc": "87",
+                "u": "579.8417763259337",
+                "ia": "87",
+                "ib": "87",
+                "ic": "87",
+                "i": "121.2902962774651",
+                "p": "856.4332914167802",
+                "q": "87",
+                "s": "128361.00099553623",
+                "e": "16.401548424528958",
+                "en": "45.314808127001809",
+                "t": "42",
+                "errorCode": "1",
+                "workMode": "1",
+                "invalid": "86",
+                "status": "11010",
+                "u1": "87",
+                "u2": "87",
+                "u3": "87",
+                "i1": "87",
+                "i2": "87",
+                "i3": "87"
+              },
+              {
+                "stationId": "1476802733997686784",
+                "nodeId": "1476812401981652992",
+                "tp": "1647499200010",
+                "ua": "83",
+                "ub": "83",
+                "uc": "83",
+                "u": "273.44844009273015",
+                "ia": "83",
+                "ib": "83",
+                "ic": "83",
+                "i": "86.7557231226276",
+                "p": "1122.4874289764869",
+                "q": "83",
+                "s": "16655.644575937524",
+                "e": "11.941145092110193",
+                "en": "47.334047401011742",
+                "t": "23",
+                "errorCode": "6",
+                "workMode": "16",
+                "invalid": "35",
+                "status": "11010",
+                "u1": "83",
+                "u2": "83",
+                "u3": "83",
+                "i1": "83",
+                "i2": "83",
+                "i3": "83",
+                "tIn": "23"
+              },
+              {
+                "nodeId": "1498844613643993088"
+              }
+            ]
+          },
+          {
+            "type": "EnvironmentalTester",
+            "packageInfo": [
+              {
+                "stationId": "1476802733997686784",
+                "nodeId": "1476804445919641603",
+                "tp": "1647499200010",
+                "u": "528.377618043671300",
+                "i": "11.528889138194975",
+                "p": "3000000",
+                "q": "55",
+                "e": "650",
+                "ep": "29139.499195153566933",
+                "en": "29138.610216732668373",
+                "t": "20",
+                "status": "11010",
+                "irradiance": "40",
+                "direction": "0",
+                "v": "23"
+              }
+            ]
+          }
+        ],
+        "extraInfo": {
+          "mergeNetEPrice": 1.1,
+          "historyProfit": 2527833
+        },
+        "thingInfo": {
+          "id": "1476802733997686784",
+          "templateCode": "DistributedPV",
+          "templateType": "PowerStation",
+          "name": "东东电站",
+          "code": "dddz",
+          "attributeValues": [
+            {
+              "attributeCode": "IsReady",
+              "attributeName": "就绪状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "IsSigned",
+              "attributeName": "签约状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "AreaID",
+              "attributeName": "区域ID",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "320507"
+            },
+            {
+              "attributeCode": "Alias",
+              "attributeName": "电站别名",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "PowerCapacity",
+              "attributeName": "装机容量",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "30000"
+            },
+            {
+              "attributeCode": "Longitude",
+              "attributeName": "经度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "120.57375"
+            },
+            {
+              "attributeCode": "Latitude",
+              "attributeName": "纬度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "31.3953"
+            },
+            {
+              "attributeCode": "Altitude",
+              "attributeName": "海拔",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "10"
+            },
+            {
+              "attributeCode": "TimeZone",
+              "attributeName": "时区",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "东八区"
+            },
+            {
+              "attributeCode": "ProductionTime",
+              "attributeName": "投产时间",
+              "attributeTypeCode": "dateTime",
+              "attributeTypeName": "时间",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Country",
+              "attributeName": "国家",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Address",
+              "attributeName": "详细地址",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Note",
+              "attributeName": "备注",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricitySalesType",
+              "attributeName": "售电类型",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "FullAmount",
+                  "attributeName": "全额上网",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "UseSelf",
+                  "attributeName": "自发自用",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "OnGridPrice",
+              "attributeName": "售网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricityPrice",
+              "attributeName": "购网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            }
+          ],
+          "nodeIdList": [
+            "1476804445919641603"
+          ],
+          "shared": false,
+          "creator": "褚衍东",
+          "updater": "褚衍东",
+          "createTime": "2021-12-31 14:29:44",
+          "updateTime": "2022-03-02 10:32:41"
+        }
+      },
+      {
+        "stationNodeInfos": [
+          {
+            "type": "Grid",
+            "packageInfo": [
+              {
+                "nodeId": "1498844890908459011"
+              }
+            ]
+          },
+          {
+            "type": "Aggregation",
+            "packageInfo": [
+              {
+                "stationId": "1481819304491089920"
+              }
+            ]
+          }
+        ],
+        "deviceNodeInfos": [],
+        "extraInfo": {
+          "mergeNetEPrice": 1.1,
+          "historyProfit": 0
+        },
+        "thingInfo": {
+          "id": "1481819304491089920",
+          "templateCode": "DistributedPV",
+          "templateType": "PowerStation",
+          "name": "南南电站",
+          "code": "nndz",
+          "attributeValues": [
+            {
+              "attributeCode": "IsReady",
+              "attributeName": "就绪状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "IsSigned",
+              "attributeName": "签约状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "AreaID",
+              "attributeName": "区域ID",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "320508"
+            },
+            {
+              "attributeCode": "Alias",
+              "attributeName": "电站别名",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "PowerCapacity",
+              "attributeName": "装机容量",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "1000"
+            },
+            {
+              "attributeCode": "Longitude",
+              "attributeName": "经度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "120.617038"
+            },
+            {
+              "attributeCode": "Latitude",
+              "attributeName": "纬度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "31.336409"
+            },
+            {
+              "attributeCode": "Altitude",
+              "attributeName": "海拔",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "8"
+            },
+            {
+              "attributeCode": "TimeZone",
+              "attributeName": "时区",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "东八区"
+            },
+            {
+              "attributeCode": "ProductionTime",
+              "attributeName": "投产时间",
+              "attributeTypeCode": "dateTime",
+              "attributeTypeName": "时间",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Country",
+              "attributeName": "国家",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Address",
+              "attributeName": "详细地址",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Note",
+              "attributeName": "备注",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricitySalesType",
+              "attributeName": "售电类型",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "FullAmount",
+                  "attributeName": "全额上网",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "UseSelf",
+                  "attributeName": "自发自用",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "OnGridPrice",
+              "attributeName": "售网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricityPrice",
+              "attributeName": "购网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            }
+          ],
+          "nodeIdList": [],
+          "shared": false,
+          "creator": "褚衍东",
+          "updater": "褚衍东",
+          "createTime": "2022-01-14 10:43:47",
+          "updateTime": "2022-01-14 13:33:05"
+        }
+      },
+      {
+        "stationNodeInfos": [
+          {
+            "type": "Grid",
+            "packageInfo": [
+              {
+                "nodeId": "1498573866291822595"
+              }
+            ]
+          },
+          {
+            "type": "Aggregation",
+            "packageInfo": [
+              {
+                "stationId": "1491340223685197824"
+              }
+            ]
+          }
+        ],
+        "deviceNodeInfos": [],
+        "extraInfo": {
+          "mergeNetEPrice": 1.1,
+          "historyProfit": 0
+        },
+        "thingInfo": {
+          "id": "1491340223685197824",
+          "templateCode": "DistributedPV",
+          "templateType": "PowerStation",
+          "name": "青龙电站",
+          "code": "qldz",
+          "attributeValues": [
+            {
+              "attributeCode": "IsReady",
+              "attributeName": "就绪状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "IsSigned",
+              "attributeName": "签约状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "AreaID",
+              "attributeName": "区域ID",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "123456"
+            },
+            {
+              "attributeCode": "Alias",
+              "attributeName": "电站别名",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "PowerCapacity",
+              "attributeName": "装机容量",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Longitude",
+              "attributeName": "经度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "30.055"
+            },
+            {
+              "attributeCode": "Latitude",
+              "attributeName": "纬度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "25.666"
+            },
+            {
+              "attributeCode": "Altitude",
+              "attributeName": "海拔",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "10"
+            },
+            {
+              "attributeCode": "TimeZone",
+              "attributeName": "时区",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "东八区"
+            },
+            {
+              "attributeCode": "ProductionTime",
+              "attributeName": "投产时间",
+              "attributeTypeCode": "dateTime",
+              "attributeTypeName": "时间",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Country",
+              "attributeName": "国家",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Address",
+              "attributeName": "详细地址",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Note",
+              "attributeName": "备注",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricitySalesType",
+              "attributeName": "售电类型",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "FullAmount",
+                  "attributeName": "全额上网",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "UseSelf",
+                  "attributeName": "自发自用",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "OnGridPrice",
+              "attributeName": "售网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricityPrice",
+              "attributeName": "购网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            }
+          ],
+          "nodeIdList": [],
+          "shared": false,
+          "creator": "褚衍东",
+          "updater": "褚衍东",
+          "createTime": "2022-02-09 17:16:33",
+          "updateTime": "2022-02-09 17:16:33"
+        }
+      },
+      {
+        "stationNodeInfos": [
+          {
+            "type": "Grid",
+            "packageInfo": [
+              {
+                "stationId": "1478605853874585600",
+                "nodeId": "1498844863842615299",
+                "tp": "1647498480000",
+                "e": "156",
+                "status": "11010"
+              }
+            ]
+          },
+          {
+            "type": "Generate",
+            "packageInfo": [
+              {
+                "nodeId": "1498844863842615304"
+              }
+            ]
+          },
+          {
+            "type": "Aggregation",
+            "packageInfo": [
+              {
+                "stationId": "1478605853874585600"
+              }
+            ]
+          }
+        ],
+        "deviceNodeInfos": [
+          {
+            "type": "Inverter",
+            "packageInfo": [
+              {
+                "nodeId": "1499611858414469120"
+              },
+              {
+                "stationId": "1478605853874585600",
+                "nodeId": "1498844863842615300",
+                "tp": "1647499200010",
+                "p": "100",
+                "e": "251",
+                "status": "11010",
+                "tIn": "300"
+              },
+              {
+                "nodeId": "1498844863842615301"
+              }
+            ]
+          }
+        ],
+        "extraInfo": {
+          "mergeNetEPrice": 1.1,
+          "historyProfit": 5054000
+        },
+        "thingInfo": {
+          "id": "1478605853874585600",
+          "templateCode": "DistributedPV",
+          "templateType": "PowerStation",
+          "name": "西西电站",
+          "code": "xxdz",
+          "attributeValues": [
+            {
+              "attributeCode": "IsReady",
+              "attributeName": "就绪状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "IsSigned",
+              "attributeName": "签约状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "AreaID",
+              "attributeName": "区域ID",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "320505"
+            },
+            {
+              "attributeCode": "Alias",
+              "attributeName": "电站别名",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "PowerCapacity",
+              "attributeName": "装机容量",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "1000"
+            },
+            {
+              "attributeCode": "Longitude",
+              "attributeName": "经度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "120.57345"
+            },
+            {
+              "attributeCode": "Latitude",
+              "attributeName": "纬度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "31.2953"
+            },
+            {
+              "attributeCode": "Altitude",
+              "attributeName": "海拔",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "5"
+            },
+            {
+              "attributeCode": "TimeZone",
+              "attributeName": "时区",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "东八区"
+            },
+            {
+              "attributeCode": "ProductionTime",
+              "attributeName": "投产时间",
+              "attributeTypeCode": "dateTime",
+              "attributeTypeName": "时间",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Country",
+              "attributeName": "国家",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Address",
+              "attributeName": "详细地址",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Note",
+              "attributeName": "备注",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricitySalesType",
+              "attributeName": "售电类型",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "FullAmount",
+                  "attributeName": "全额上网",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "UseSelf",
+                  "attributeName": "自发自用",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "OnGridPrice",
+              "attributeName": "售网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricityPrice",
+              "attributeName": "购网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            }
+          ],
+          "nodeIdList": [
+            "1498844863842615299"
+          ],
+          "shared": false,
+          "creator": "褚衍东",
+          "updater": "褚衍东",
+          "createTime": "2022-01-05 13:54:42",
+          "updateTime": "2022-01-14 13:32:39"
+        }
+      },
+      {
+        "stationNodeInfos": [
+          {
+            "type": "Grid",
+            "packageInfo": [
+              {
+                "nodeId": "1471763631141158912"
+              }
+            ]
+          },
+          {
+            "type": "Aggregation",
+            "packageInfo": [
+              {
+                "stationId": "1470235013197987840"
+              }
+            ]
+          }
+        ],
+        "deviceNodeInfos": [],
+        "extraInfo": {
+          "mergeNetEPrice": 1.1,
+          "historyProfit": 0
+        },
+        "thingInfo": {
+          "id": "1470235013197987840",
+          "templateCode": "DistributedPV",
+          "templateType": "PowerStation",
+          "name": "一号电站",
+          "code": "dz001",
+          "attributeValues": [
+            {
+              "attributeCode": "IsReady",
+              "attributeName": "就绪状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "IsSigned",
+              "attributeName": "签约状态",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "Yes",
+                  "attributeName": "是",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "No",
+                  "attributeName": "否",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "AreaID",
+              "attributeName": "区域ID",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "cn1"
+            },
+            {
+              "attributeCode": "Alias",
+              "attributeName": "电站别名",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "PowerCapacity",
+              "attributeName": "装机容量",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Longitude",
+              "attributeName": "经度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "36"
+            },
+            {
+              "attributeCode": "Latitude",
+              "attributeName": "纬度",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "56"
+            },
+            {
+              "attributeCode": "Altitude",
+              "attributeName": "海拔",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "600"
+            },
+            {
+              "attributeCode": "TimeZone",
+              "attributeName": "时区",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": true,
+              "attributeInfoOptions": [],
+              "enable": true,
+              "attributeValue": "东八区"
+            },
+            {
+              "attributeCode": "ProductionTime",
+              "attributeName": "投产时间",
+              "attributeTypeCode": "dateTime",
+              "attributeTypeName": "时间",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Country",
+              "attributeName": "国家",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Address",
+              "attributeName": "详细地址",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "Note",
+              "attributeName": "备注",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricitySalesType",
+              "attributeName": "售电类型",
+              "attributeTypeCode": "set",
+              "attributeTypeName": "选择",
+              "attributeRequired": false,
+              "attributeInfoOptions": [
+                {
+                  "attributeCode": "FullAmount",
+                  "attributeName": "全额上网",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                },
+                {
+                  "attributeCode": "UseSelf",
+                  "attributeName": "自发自用",
+                  "attributeTypeCode": "option",
+                  "attributeTypeName": "选项值",
+                  "attributeRequired": false,
+                  "attributeInfoOptions": [],
+                  "enable": true
+                }
+              ],
+              "enable": true
+            },
+            {
+              "attributeCode": "OnGridPrice",
+              "attributeName": "售网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            },
+            {
+              "attributeCode": "ElectricityPrice",
+              "attributeName": "购网电价",
+              "attributeTypeCode": "text",
+              "attributeTypeName": "文本",
+              "attributeRequired": false,
+              "attributeInfoOptions": [],
+              "enable": true
+            }
+          ],
+          "nodeIdList": [
+            "1471763631141158913"
+          ],
+          "shared": false,
+          "creator": "褚衍东",
+          "updater": "陆逢春",
+          "createTime": "2021-12-13 11:31:57",
+          "updateTime": "2021-12-15 10:50:13"
+        }
+      }
+    ]
+  }
+}
